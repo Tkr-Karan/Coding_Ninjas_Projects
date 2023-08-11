@@ -1,0 +1,10 @@
+.dropdown-menu {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+.dropdown-menu.active {
+  opacity: 1;
+  height: 320px;
+}
